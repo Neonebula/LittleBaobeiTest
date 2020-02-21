@@ -7,6 +7,7 @@
       <div class="separateur">|</div>
       <div>Ramen</div>
     </div>
+    <h3>Les Burgers :</h3>
     <ChoiceWithPrice
       v-for="choice in choices"
       :key="choice.name"
